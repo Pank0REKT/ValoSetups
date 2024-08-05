@@ -4,20 +4,15 @@
     <meta charset="UTF-8">
     <title>ValoSetups</title>
     <link href="style.css" rel="stylesheet">
+    <script src="scripts/scripts.js"></script>
 </head>
 <body>
 <div class="main">
     <div class="header">
         <h1>Быстрые сетапы для Valorant</h1>
     </div>
-    <div class="heroes">
-        <div class="hero">
-            <a href="Cypher.html">
-                <img src="images/heroes/Cypher_icon.webp" alt="cypher hero" height="200px"/>
-
-            </a>
-            <p>Cypher</p>
-        </div>
+    <div id="heroes-grid">
+        <script>buildHeroesGrid()</script>
     </div>
 </div>
 </body>
